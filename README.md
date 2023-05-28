@@ -60,7 +60,8 @@ npm install
 To start the dev server, use the following command:
 
 ```bash
-npm run dev
+npm run built 
+npm run start
 ```
 
 The server will start running on `http://localhost:8000`. You can access it in your browser or through API clients like Postman,Insomnnia.
