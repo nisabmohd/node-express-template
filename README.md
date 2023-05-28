@@ -41,7 +41,7 @@ MONGO_URI=mongodb://localhost:27017/test
 LOGGER=true
 ```
 
-Note : if there is no env file or misamtch type of env varaibles from src\utils\validationEnv.ts schema doesn't match server will not start
+##### Note : if there is no env file or misamtch type of env varaibles from src\utils\validationEnv.ts schema doesn't match server will not start
 
 <img src="./assets/env-error.png" alt="img"/>
 
