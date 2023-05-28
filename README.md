@@ -35,7 +35,7 @@ cd node-express-template
 
 3. Create .env in root folder
 
-```
+```bash
 PORT=8000
 MONGO_URI=mongodb://localhost:27017/test
 LOGGER=true
@@ -45,7 +45,7 @@ Note : if there is no env file or misamtch type of env varaibles from src\utils\
 
 <img src="./assets/env-error.png" alt="img"/>
 
-if LOGGER=true added in .env file then you can log the requestInfo
+if `LOGGER=true` added in .env file then you can log the requestInfo
 
 <img src="./assets/logger.png" alt="img"/>
 
@@ -63,7 +63,7 @@ To start the dev server, use the following command:
 npm run dev
 ```
 
-The server will start running on `http://localhost:3000`. You can access it in your browser or through API clients like Postman.
+The server will start running on `http://localhost:8000`. You can access it in your browser or through API clients like Postman,Insomnnia.
 
 ### Development Mode
 
@@ -80,5 +80,3 @@ If you want to contribute to this template, feel free to submit a pull request. 
 ## Acknowledgements
 
 This template was created by [nisabmohd](https://github.com/nisabmohd) and is inspired by various Node.js and Express project structures and best practices.
-
-Please make sure to update the README and LICENSE files accordingly if you use this template for your own projects.
