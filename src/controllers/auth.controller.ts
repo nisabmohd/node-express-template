@@ -1,7 +1,10 @@
 import expressAsyncHandler from "express-async-handler";
-import { loginRequestType, signupRequestType } from "../routers/user.route";
+import type {
+  loginRequestType,
+  signupRequestType,
+} from "../routers/user.route";
 import User from "../models/user.model";
-import ServerError from "../utils/ServerError";
+// import ServerError from "../utils/ServerError";
 
 export const loginHandler = expressAsyncHandler(async (req, res, next) => {
   // auto prediction for req.body

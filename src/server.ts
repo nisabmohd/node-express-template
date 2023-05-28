@@ -1,9 +1,7 @@
-import { config } from "dotenv";
-config();
-import expressServer from "./app";
-import { connectToDB } from "./utils/connectDB";
 import { validateEnv } from "./utils/validationEnv";
 validateEnv();
+import expressServer from "./app";
+import { connectToDB } from "./utils/connectDB";
 
 const PORT = process.env.PORT;
 
